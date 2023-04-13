@@ -22,8 +22,8 @@
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-primary: rgb(207, 206, 206);
+  --color-secondary: #199599;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -602,7 +602,7 @@ section {
   padding: 0.8rem 1.1rem;
   outline: none;
   border: none;
-  background-color: var(--color-grey-5);
+  background-color: var(--color-grey-4);
   width: 100%;
   color: var(--color-white);
   resize: none;
@@ -615,7 +615,27 @@ section {
 }
 .contact-content-con .right-contact .submit-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  height: 60px;
+}
+
+#submitting-btn {
+  background-color: var(--color-grey-4);
+  width: 25%;
+  border-radius: 12px;
+  color: var(--color-grey-2);
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  transition-duration: 0.4s;
+
+}
+
+#submitting-btn:hover{
+  background-color: var(--color-grey-2);
+  color: var(--color-grey-6);
+  font-size: 1.5rem;
 }
 
 /*Independed components*/
